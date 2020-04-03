@@ -11,14 +11,10 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
-
-
-
-
-
+  componentDidMount = () => {
+    this.state.interval = setInterval(() => {
+    }, 1000);
+  }
 
   // No need to modify anything in render or the class methods below
   // Unless, of course, you're curious about how it all works
